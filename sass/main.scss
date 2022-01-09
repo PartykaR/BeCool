@@ -23,7 +23,7 @@ body {
    margin: 0 auto 140px;
    width: 160px;
    height: 4px;
-   background-color: $active-color;
+   background-color: $darc-color;
 }
 
 h2 {
@@ -157,11 +157,14 @@ header {
 }
 
 .aboutus-hover {
-   transition: color .3s;
+   transition: color .5s;
 }
 
 .aboutus-hover:hover {
-   color: $darc-color;
+   color: $active-color;
+   background-color: $darc-color;
+   border: 3px solid $active-color;
+   border-radius: 5%;
 }
 
 .aboutus-hero {

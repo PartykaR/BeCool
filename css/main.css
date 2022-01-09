@@ -8,7 +8,7 @@
 }
 
 html {
-  scroll-padding-top: 81.93px;
+  scroll-padding-top: 83px;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
   margin: 0 auto 140px;
   width: 160px;
   height: 4px;
-  background-color: #91b9f8;
+  background-color: #002A4C;
 }
 
 h2 {
@@ -165,12 +165,15 @@ header .fa-chevron-down {
 }
 
 .aboutus-hover {
-  -webkit-transition: color .3s;
-  transition: color .3s;
+  -webkit-transition: color .5s;
+  transition: color .5s;
 }
 
 .aboutus-hover:hover {
-  color: #002A4C;
+  color: #91b9f8;
+  background-color: #002A4C;
+  border: 3px solid #91b9f8;
+  border-radius: 5%;
 }
 
 .aboutus-hero {
@@ -240,7 +243,7 @@ header .fa-chevron-down {
 
 @media (min-width: 992px) {
   nav {
-    height: 81.94px;
+    height: 83px;
   }
   .aboutus-hero {
     background-image: url("../img/pipes_1280x851.jpg");
