@@ -23,7 +23,7 @@ body {
    margin: 0 auto 140px;
    width: 160px;
    height: 4px;
-   background-color: $active-color;
+   background-color: $darc-color;
 }
 
 h2 {
@@ -148,12 +148,12 @@ header {
 }
 
 .aboutus-card-title {
-   font-size: 18px;
+   font-size: 24px;
    text-transform: uppercase;
 }
 
 .aboutus-card-text {
-   font-size: 14px;
+   font-size: 18px;
 }
 
 .aboutus-hover {
@@ -161,7 +161,7 @@ header {
 }
 
 .aboutus-hover:hover {
-   color: $darc-color;
+   color: $green-color;
 }
 
 .aboutus-hero {
