@@ -156,12 +156,14 @@ header .fa-chevron-down {
 }
 
 .aboutus-card-title {
-  font-size: 18px;
+  font-size: 24px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .aboutus-card-text {
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .aboutus-hover {
@@ -170,10 +172,7 @@ header .fa-chevron-down {
 }
 
 .aboutus-hover:hover {
-  color: #91b9f8;
-  background-color: #002A4C;
-  border: 3px solid #91b9f8;
-  border-radius: 5%;
+  color: #044b04;
 }
 
 .aboutus-hero {
@@ -221,6 +220,67 @@ header .fa-chevron-down {
 
 .portfolio .carousel-indicators {
   padding-bottom: 20px;
+}
+
+.contact {
+  position: relative;
+  background-image: url("../img/contact-hero640.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 0;
+}
+
+.contact h2 {
+  padding-top: 30px;
+  color: #91b9f8;
+  font-weight: bold;
+}
+
+.contact .underline {
+  background-color: #91b9f8;
+}
+
+.contact-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 9, 27, 0.8);
+  top: 0;
+  z-index: -5;
+}
+
+.contact-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #cbe7e7;
+}
+
+.contact-us .contact-item {
+  margin: 30px 0;
+}
+
+.contact-us .contact-item h3 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact-us .contact-item .social-media {
+  font-size: 26px;
+}
+
+.contact-us .contact-item .social-media a {
+  padding: 10px;
+  color: #cbe7e7;
+}
+
+.contact-us .contact-item .social-media a:hover {
+  color: #91b9f8;
 }
 
 @media (min-width: 375px) {

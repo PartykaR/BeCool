@@ -148,12 +148,14 @@ header {
 }
 
 .aboutus-card-title {
-   font-size: 18px;
+   font-size: 24px;
    text-transform: uppercase;
+   font-weight: bold;
 }
 
 .aboutus-card-text {
-   font-size: 14px;
+   font-size: 18px;
+   font-weight: bold;
 }
 
 .aboutus-hover {
@@ -161,10 +163,7 @@ header {
 }
 
 .aboutus-hover:hover {
-   color: $active-color;
-   background-color: $darc-color;
-   border: 3px solid $active-color;
-   border-radius: 5%;
+   color: $green-color;
 }
 
 .aboutus-hero {
@@ -215,6 +214,65 @@ header {
       padding-bottom: 20px;
    }
 }
+
+.contact {
+   position: relative;
+   background-image: url('../img/contact-hero640.jpg');
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+   z-index: 0;
+}
+
+.contact h2 {
+   padding-top: 30px;
+   color: $active-color;
+   font-weight: bold;
+}
+
+.contact .underline {
+   background-color: $active-color;
+}
+
+.contact-shadow {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 9, 27, .8);
+   top: 0;
+   z-index: -5;
+}
+
+.contact-us {
+   display: flex;
+   align-items: center;
+   color: $main-color;
+
+   .contact-item {
+      margin: 30px 0;
+
+      h3 {
+         margin-bottom: 15px;
+         text-transform: uppercase;
+         letter-spacing: 2px;
+      }
+
+      .social-media {
+         font-size: 26px;
+
+         a {
+            padding: 10px;
+            color: $main-color;
+         }
+
+         a:hover {
+            color: $active-color;
+         }
+      }
+   }
+}
+
+
 
 @media(min-width: 375px) {
    header {
