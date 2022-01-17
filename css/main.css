@@ -8,7 +8,7 @@
 }
 
 html {
-  scroll-padding-top: 83px;
+  scroll-padding-top: 81px;
 }
 
 body {
@@ -222,6 +222,33 @@ header .fa-chevron-down {
   padding-bottom: 20px;
 }
 
+.portfolio h2 {
+  padding-top: 40px;
+  color: #91b9f8;
+}
+
+.portfolio-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -5;
+}
+
+.portfolio .underline {
+  background-color: #91b9f8;
+}
+
+.portfolio-img {
+  position: relative;
+  height: 100%;
+  background-image: url("../img/becool-mini.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
 .contact {
   position: relative;
   background-image: url("../img/contact-hero640.jpg");
@@ -234,7 +261,6 @@ header .fa-chevron-down {
 .contact h2 {
   padding-top: 30px;
   color: #91b9f8;
-  font-weight: bold;
 }
 
 .contact .underline {
@@ -281,6 +307,11 @@ header .fa-chevron-down {
 
 .contact-us .contact-item .social-media a:hover {
   color: #91b9f8;
+}
+
+.footer {
+  color: #91b9f8;
+  background-color: #002A4C;
 }
 
 @media (min-width: 375px) {
