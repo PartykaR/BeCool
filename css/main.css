@@ -205,39 +205,12 @@ header .fa-chevron-down {
   font-size: 24px;
 }
 
-.portfolio h2 {
-  padding-top: 40px;
-  color: #91b9f8;
-}
-
-.portfolio .underline {
-  background-color: #91b9f8;
-}
-
-.portfolio-shadow {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: -5;
-}
-
-.portfolio-img {
-  position: relative;
-  height: 100vh;
-  background-image: url("../img/becool-mini.jpg");
-  background-position: top center;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: 0;
-}
-
 .portfolio .carousel-item {
   position: relative;
   height: 600px;
 }
 
-.carousel-caption {
+.portfolio .carousel-caption {
   position: absolute;
   left: 0;
   right: 0;
@@ -245,8 +218,35 @@ header .fa-chevron-down {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.carousel-indicators {
+.portfolio .carousel-indicators {
   padding-bottom: 20px;
+}
+
+.portfolio h2 {
+  padding-top: 40px;
+  color: #91b9f8;
+}
+
+.portfolio-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -5;
+}
+
+.portfolio .underline {
+  background-color: #91b9f8;
+}
+
+.portfolio-img {
+  position: relative;
+  height: 100%;
+  background-image: url("../img/becool-mini.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
 }
 
 .contact {
