@@ -222,6 +222,11 @@ header .fa-chevron-down {
   padding-bottom: 20px;
 }
 
+.portfolio .card-body {
+  background-color: #91b9f8;
+  color: #002A4C;
+}
+
 .portfolio h2 {
   padding-top: 40px;
   color: #91b9f8;
