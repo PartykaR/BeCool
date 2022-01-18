@@ -214,6 +214,11 @@ header {
    .carousel-indicators {
       padding-bottom: 20px;
    }
+
+   .card-body {
+      background-color: $active-color;
+      color: $darc-color;
+   }
 }
 
 .portfolio h2 {
