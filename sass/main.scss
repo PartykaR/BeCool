@@ -82,8 +82,9 @@ header {
 
    .hero-img {
       position: relative;
+      width: 100%;
       height: 100vh;
-      background-image: url('../img/becool-mini.jpg');
+      // background-image: url('../img/becool-mini.jpg');
       background-position: top center;
       background-size: cover;
       background-attachment: fixed;
@@ -93,7 +94,7 @@ header {
    .hero-shadow {
       position: absolute;
       width: 100%;
-      height: 100vh;
+      height: 100%;
       background-color: rgba(0, 0, 0, .8);
       z-index: -5;
    }
@@ -312,7 +313,7 @@ header {
    background-color: $darc-color;
 }
 
-@media(min-width: 375px) {
+@media(min-width: 414px) {
    header {
       h1 {
          font-size: 36px;
@@ -321,6 +322,18 @@ header {
       p {
          font-size: 16px;
       }
+
+      .hero-img {
+         background-image: url('../img/becool-mini.jpg');
+      }
+   }
+
+
+}
+
+@media(max-width: 413px) {
+   .hero-img {
+      background-image: url('../img/becool-mini1.jpg');
    }
 }
 
