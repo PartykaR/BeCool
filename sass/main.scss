@@ -126,11 +126,21 @@ header {
 .aboutus {
    position: relative;
    height: 100%;
-   background-image: url('../img/becool.jpg');
+   background-image: url('../img/becool-mini1.jpg');
    background-position: top center;
    background-size: cover;
    background-attachment: fixed;
+   color: $darc-color;
    z-index: 0;
+
+   a {
+      text-decoration: none;
+      color: $darc-color;
+   }
+
+   a:hover {
+      color: $green-color;
+   }
 
    .aboutus-shadow {
       position: absolute;
@@ -194,6 +204,11 @@ header {
          font-size: 24px;
       }
    }
+
+   // .aboutus .company {
+   //    color: $whit-color;
+   //    font-weight: bold;
+   // }
 }
 
 .portfolio {
@@ -328,6 +343,10 @@ header {
 
 @media(min-width: 639px) {
    header .hero-img {
+      background-image: url('../img/becool-mini.jpg');
+   }
+
+   .aboutus {
       background-image: url('../img/becool-mini.jpg');
    }
 }
