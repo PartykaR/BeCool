@@ -215,6 +215,10 @@ header .fa-chevron-down {
   font-size: 24px;
 }
 
+.company {
+  color: #002A4C;
+}
+
 .portfolio .carousel-item {
   position: relative;
   height: 600px;
