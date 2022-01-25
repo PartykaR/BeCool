@@ -16,7 +16,8 @@ body {
    position: relative;
    font-family: 'Montserrat',
       sans-serif;
-   background-color: #fff;
+   background-color: $darc1-color;
+   font-size: 20px;
 }
 
 .underline {
@@ -135,7 +136,7 @@ header {
 
    a {
       text-decoration: none;
-      color: $darc-color;
+      color: $darc1-color;
    }
 
    a:hover {
