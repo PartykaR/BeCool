@@ -14,7 +14,8 @@ html {
 body {
   position: relative;
   font-family: 'Montserrat', sans-serif;
-  background-color: #fff;
+  background-color: #293881;
+  font-size: 20px;
 }
 
 .underline {
@@ -144,7 +145,7 @@ header .fa-chevron-down {
 
 .aboutus a {
   text-decoration: none;
-  color: #002A4C;
+  color: #293881;
 }
 
 .aboutus a:hover {
