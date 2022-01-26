@@ -209,7 +209,13 @@ header {
 
 .company {
    color: $darc-color;
+
    // font-weight: bold;
+   ul li {
+      list-style-type: square;
+      // color: $green-color;
+   }
+
 }
 
 .portfolio {
