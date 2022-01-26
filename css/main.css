@@ -178,8 +178,8 @@ header .fa-chevron-down {
 }
 
 .aboutus-hover {
-  -webkit-transition: color .3s;
-  transition: color .3s;
+  -webkit-transition: color .5s;
+  transition: color .5s;
 }
 
 .aboutus-hover:hover {
