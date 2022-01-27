@@ -221,7 +221,7 @@ header .fa-chevron-down {
 }
 
 .company ul li {
-  list-style-type: square;
+  list-style-type: none;
 }
 
 .portfolio .carousel-item {
