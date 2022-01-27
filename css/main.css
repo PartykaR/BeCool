@@ -220,6 +220,10 @@ header .fa-chevron-down {
   color: #002A4C;
 }
 
+.company ul li {
+  list-style-type: none;
+}
+
 .portfolio .carousel-item {
   position: relative;
   height: 600px;
