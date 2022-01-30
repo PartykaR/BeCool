@@ -143,6 +143,25 @@ header {
       color: $darc1-color;
    }
 
+   .active {
+      color: $main-color;
+   }
+
+   .breadcrumb-item {
+      a {
+         color: $darc-color;
+         // font-weight: bold;
+      }
+
+      a:hover {
+         color: $main-color;
+      }
+
+      .active {
+         color: $main-color;
+      }
+   }
+
    .aboutus-shadow {
       position: absolute;
       top: 0;
