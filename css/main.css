@@ -152,6 +152,22 @@ header .fa-chevron-down {
   color: #293881;
 }
 
+.aboutus .active {
+  color: #cbe7e7;
+}
+
+.aboutus .breadcrumb-item a {
+  color: #002A4C;
+}
+
+.aboutus .breadcrumb-item a:hover {
+  color: #cbe7e7;
+}
+
+.aboutus .breadcrumb-item .active {
+  color: #cbe7e7;
+}
+
 .aboutus .aboutus-shadow {
   position: absolute;
   top: 0;
@@ -178,8 +194,8 @@ header .fa-chevron-down {
 }
 
 .aboutus-hover {
-  -webkit-transition: color .3s;
-  transition: color .3s;
+  -webkit-transition: color .5s;
+  transition: color .5s;
 }
 
 .aboutus-hover:hover {
