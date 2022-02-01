@@ -135,8 +135,9 @@ header {
    z-index: 0;
 
    a {
-      text-decoration: none;
       color: $darc-color;
+      text-decoration: none;
+      // font-weight: bold;
    }
 
    a:hover {
@@ -144,21 +145,15 @@ header {
    }
 
    .active {
-      color: $main-color;
+      color: $whit-color;
    }
 
    .breadcrumb-item {
-      a {
-         color: $darc-color;
-         // font-weight: bold;
-      }
+      font-size: 16px;
 
       a:hover {
-         color: $main-color;
-      }
-
-      .active {
-         color: $main-color;
+         // color: $active-color;
+         text-decoration: underline;
       }
    }
 
