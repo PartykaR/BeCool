@@ -359,6 +359,12 @@ header .fa-chevron-down {
   }
 }
 
+@media (max-width: 400px) {
+  .company .breadcrumb-item a {
+    font-size: 10px;
+  }
+}
+
 @media (min-width: 639px) {
   header .hero-img {
     background-image: url("../img/becool-mini.jpg");

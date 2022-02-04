@@ -225,6 +225,7 @@ header {
    color: $darc-color;
 
    // font-weight: bold;
+
    ul li {
       list-style-type: none;
       // list-style-type: square;
@@ -361,6 +362,13 @@ header {
    }
 
 
+}
+
+@media(max-width: 400px) {
+
+   .company .breadcrumb-item a {
+      font-size: 10px;
+   }
 }
 
 @media(min-width: 639px) {
