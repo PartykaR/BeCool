@@ -231,7 +231,6 @@ header {
       // list-style-type: square;
       // color: $green-color;
    }
-
 }
 
 .portfolio {
@@ -254,8 +253,8 @@ header {
    }
 
    .card-body {
-      background-color: $active-color;
-      color: $darc-color;
+      background-color: $darc-color;
+      color: $main-color;
    }
 }
 
