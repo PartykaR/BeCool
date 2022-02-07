@@ -19,7 +19,7 @@ body {
 }
 
 .underline {
-  margin: 0 auto 140px;
+  margin: 0 auto 40px;
   width: 160px;
   height: 4px;
   background-color: #002A4C;
@@ -350,6 +350,10 @@ header .fa-chevron-down {
   background-image: url("../img/servce_n.png");
   background-size: cover;
   background-position: center;
+}
+
+p {
+  margin-top: 20px;
 }
 
 .portfolio .carousel-item {
